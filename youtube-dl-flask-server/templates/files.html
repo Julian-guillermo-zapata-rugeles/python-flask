@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <title>directorio</title>
+  </head>
+  <body>
+    {% for i in values %}
+    {{ i }} <a href="/static/music/{{ i }}"> Descargar </a> <br>
+    {% endfor %}
+  </body>
+</html>

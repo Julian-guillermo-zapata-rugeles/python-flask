@@ -1,0 +1,26 @@
+body{
+  center;
+  align-content: center;
+  background-color:rgba(100,100,100,0.2);
+}
+
+fieldset{
+  border-radius: 15px;
+  border-width: 5px;
+  width: 80%;
+  margin-top: 8%;
+  background-color: white;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  padding-bottom: 30px;
+}
+input{
+  width: 80%;
+}
+.subir{
+  width: 30%;
+  margin-top: 10px;
+}

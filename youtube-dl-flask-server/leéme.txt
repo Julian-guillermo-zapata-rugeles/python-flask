@@ -1,0 +1,11 @@
+Este proyecto es una integración con youtube-dl
+
+usa flask para servir un servidor local compartido.
+se puede conectar a la máquina servidor y descargar audios
+usando la entrada que proporciona la página principal.
+
+además se cuenta con un boton de acceso a la carpeta músic presente en el directorio del microframwork
+las canciones descargas podrán ser accesidas de manera persistente.
+
+# añada la integración con youtube-dl o cualquier método de su preferencia
+

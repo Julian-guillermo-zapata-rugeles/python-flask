@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <title>Server interno Youtube-dl</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+  </head>
+  <body>
+    <center>
+
+      <fieldset>
+        <img src="{{ url_for('static',filename='img/logo.png') }}" alt="logo">
+        <form class="" action="process" method="post">
+          <input type="text" name="link" value="" placeholder="Ingrese el link aquí">
+          <input class="subir" type="submit" name="ready" value="Procesar ">
+          <button type="button" name="button" onclick="window.location.href='files'">Archivos</button>
+          <h6>cliente web youtube-dl python3 flask Julian Zapata Rugeles</h6>
+          <h6>2020</h6>
+        </form>
+      </fieldset>
+    </center>
+  </body>
+</html>
